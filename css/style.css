@@ -1,24 +1,19 @@
 /************************************************
     UTILITIES
 ************************************************/
-nav {
+.ms-darkblue {
     background-color: #2c3e50;
 }
 
-strong,
-h1,
-h2,
-span {
-    text-transform: uppercase;
-}
-
-span {
-    font-size: 20px;
+.ms-lightblue {
+    background-color: #3a546d;
 }
 
 .ms_green {
     background-color: #1abc9c;
 }
+
+
 /************************************************
     SITE SECTIONS
 ************************************************/
