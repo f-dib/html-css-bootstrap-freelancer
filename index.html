@@ -36,7 +36,7 @@
         
         <div class="container">
           
-          <a class="navbar-brand" href="#"> <strong class="text-uppercase">start bootstrap</strong> </a>
+          <a class="navbar-brand" href="#"> <strong class="text-uppercase fs-4">start bootstrap</strong> </a>
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -47,15 +47,15 @@
             <ul class="navbar-nav">
               
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-uppercase" aria-current="page" href="#">Portfolio</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link active" href="#">Features</a>
+                <a class="nav-link active text-uppercase" href="#">About</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link active" href="#">Pricing</a>
+                <a class="nav-link active text-uppercase" href="#">Contact</a>
               </li>
             
             </ul>
@@ -91,7 +91,7 @@
           
           <div class="row justify-content-center align-items-center mb-3">
             
-            <div class="col-3 col-md-2 p-0">
+            <div class="col-3 col-md-2 col-lg-1 p-0">
               <hr class="border-2 opacity-100 rounded">
             </div>
             
@@ -99,7 +99,7 @@
               <i class="fa-solid fa-star"></i>
             </div>
             
-            <div class="col-3 col-md-2 p-0">
+            <div class="col-3 col-md-2 col-lg-1 p-0">
               <hr class="border-2 opacity-100 rounded">
             </div>
             
@@ -137,7 +137,7 @@
 
           <div class="row justify-content-center align-items-center mb-3">
             
-            <div class="col-3 col-md-2 p-0">
+            <div class="col-3 col-md-2 col-lg-1 p-0">
               <hr class="border-2 opacity-100 rounded">
             </div>
             
@@ -145,7 +145,7 @@
               <i class="fa-solid fa-star"></i>
             </div>
             
-            <div class="col-3 col-md-2 p-0">
+            <div class="col-3 col-md-2 col-lg-1 p-0">
               <hr class="border-2 opacity-100 rounded">
             </div>
             
@@ -201,15 +201,15 @@
                   
                 <div class="row justify-content-center align-items-center mb-3">
               
-                  <div class="col-2 col-md-2 p-0">
+                  <div class="col-2 col-md-2 col-lg-1 p-0">
                     <hr class="border-2 opacity-100 rounded">
                   </div>
                   
-                  <div class="col-2 text-center p-0">
+                  <div class="col-2 col-md-1 text-center p-0">
                     <i class="fa-solid fa-star"></i>
                   </div>
                   
-                  <div class="col-2 col-md-2 p-0">
+                  <div class="col-2 col-md-2 col-lg-1 p-0">
                     <hr class="border-2 opacity-100 rounded">
                   </div>
                   
@@ -218,7 +218,7 @@
 
 
                 
-                <div class="row row-cols-1 row-cols-md-2 px-3">
+                <div class="row row-cols-1 row-cols-md-2 px-3 mb-4">
                   
 
                   <div class="col">
@@ -271,15 +271,15 @@
               
             <div class="row justify-content-center align-items-center mb-3">
           
-              <div class="col-2 col-md-2 p-0">
+              <div class="col-2 col-md-2 col-lg-1 p-0">
                 <hr class="border-2 opacity-100 rounded">
               </div>
               
-              <div class="col-2 text-center p-0">
+              <div class="col-2 col-md-1 text-center p-0">
                 <i class="fa-solid fa-star"></i>
               </div>
               
-              <div class="col-2 col-md-2 p-0">
+              <div class="col-2 col-md-2 col-lg-1 p-0">
                 <hr class="border-2 opacity-100 rounded">
               </div>
               
@@ -287,23 +287,27 @@
 
             <form>
               
-              <div class="mb-3">
-                  <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Name">
+              <div class="form-floating mb-3">
+                  <input type="text" class="form-control border-0 rounded-0 border-bottom shadow-none" id="floatingName" aria-describedby="emailHelp" placeholder="Name">
+                  <label for="floatingName">Name</label>
               </div>
              
-              <div class="mb-3">
-                  <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email Address">
+              <div class="form-floating mb-3">
+                  <input type="email" class="form-control border-0 rounded-0 border-bottom shadow-none" id="floatingEmail" aria-describedby="emailHelp" placeholder="Email Address">
+                  <label for="floatingEmail">Email Address</label>
               </div>
               
-              <div class="mb-3">
-                  <input type="number" class="form-control" id="inputPhoneNumber" aria-describedby="emailHelp" placeholder="Phone Number">
+              <div class="form-floating mb-3">
+                  <input type="number" class="form-control border-0 rounded-0 border-bottom shadow-none" id="floatingPhoneNumber" aria-describedby="emailHelp" placeholder="Phone Number">
+                  <label for="floatingPhoneNumber">Phone Number</label>
               </div>
               
-              <div class="mb-3">
-                  <textarea class="form-control" id="inputMessage" rows="5" placeholder="Message"></textarea>
+              <div class="form-floating mb-3">
+                <textarea class="form-control border-0 rounded-0 border-bottom shadow-none" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
               </div>
-              
-              <button type="submit" class="btn ms_green text-white">Submit</button>
+
+              <button type="submit" class="btn ms_green text-white">Send</button>
             
             </form> 
 
@@ -315,6 +319,14 @@
       
 
 
+    <!-- 
+        ███████╗ ██████╗  ██████╗ ████████╗███████╗██████╗ 
+        ██╔════╝██╔═══██╗██╔═══██╗╚══██╔══╝██╔════╝██╔══██╗
+        █████╗  ██║   ██║██║   ██║   ██║   █████╗  ██████╔╝
+        ██╔══╝  ██║   ██║██║   ██║   ██║   ██╔══╝  ██╔══██╗
+        ██║     ╚██████╔╝╚██████╔╝   ██║   ███████╗██║  ██║
+        ╚═╝      ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═╝                                                        
+                                                            -->
     <footer class="text-white text-center">
       
       <section class="container-fluid py-5 ms-lightblue">
